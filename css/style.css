@@ -56,3 +56,50 @@ nav {
 	border-radius: 22px;
 }
 
+main {
+	width: 100%;
+	display: flex;
+}
+
+aside {
+	width: 20%;
+}
+
+ul {
+	font-size: 22px;	
+}
+
+.fas {
+	font-size: 40px;
+}
+
+.menu a{
+	color: #111;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 23px;
+	transition: all .2s ease-out;
+}
+
+.menu a:hover {
+	color: #1206f9;
+}
+
+.icon:hover .fas{
+	color: #1206f9;
+}
+
+.menu div {
+	padding: 40px 0 20px 50px;
+	width: 220px;
+	display: flex;
+	/*justify-content: space-between;*/
+}
+
+.menu i {
+	width: 65px;
+}
+ 
+section {
+	width: 80%;
+}
