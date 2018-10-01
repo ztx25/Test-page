@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.top {
+	background-color: #424242;
+}
+
+nav {
+	padding: 0 3% 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box {
+	display: flex;
+}
+
+.box:first-child div {
+	padding: 20px 40px 20px 20px;
+}
+
+.box:last-child div {
+	padding: 20px 30px;
+}
+
+.box div:hover {
+	background-color: #111;
+}
+.box a {
+	color: #898989;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.number{	
+	display: flex;
+	justify-content: space-between;
+}
+
+.number a{
+	margin-right: 25%;
+}
+
+.number p{
+	width: 35px;
+	height: 12px;
+	padding: 4px 14px 5px;
+	text-align: center;
+	background-color: #ed1c24;
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+	border-radius: 22px;
+}
+
