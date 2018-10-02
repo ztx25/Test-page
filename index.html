@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Project</title>
-	<link rel="stylesheet" href="css/style.css">
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="top">
@@ -31,57 +33,158 @@
 			</ul>
 		</aside>
 		<section>
+			<h2>Profile</h2>
 			<div class="mainBlock">
-				<div>
-					<h2></h2>
-					<div>
-						<div>
-							<ul>
-								<li>Home</li>
-								<li>Products</li>
-								<li>About</li>
-								<li>Contact</li>
-							</ul>
-						</div>
-						<div>
-							<div>
+				<div class="center">
+					<div class="topMenu">
+						<div><a href="#">Home</a></div>
+						<div><a href="#">Products</a></div>
+						<div><a href="#">About</a></div>
+						<div><a href="#">Contact</a></div>	
+					</div>
+						<div class="underMenu">
+							<div class="contactInfo">
 								<div class="userInfo">
-									<input type="text">
-									<input type="text">
-									<input type="text">
-									<select name="" id=""></select>
+									<div class="inputIcon iconBg">
+										<input type="text" placeholder="Username">
+										<i class="fas fa-user aria-hidden="true"></i>
+									</div>
+									<div class="inputIcon iconBg">
+										<input type="text" placeholder="Username">
+										<i class="fas fa-user aria-hidden="true"></i>
+									</div>
+									<div class="inputIcon iconBg">
+										<input type="text" placeholder="Username">
+										<i class="fas fa-user aria-hidden="true"></i>
+									</div>
+									<select>
+										<option>Male</option>
+										<option>Female</option>
+									</select>
+									<div class="choise">
+										<div class="choiceBox">
+											<div>
+												<label><input type="radio" name="choice">Married</label>
+											</div>
+											<div>
+												<label><input type="radio" name="choiceSecond">I have children</label>
+											</div>
+										</div>
+										<div class="choiceBox">
+											<div>
+												<label><input type="radio" name="choice">Not married</label>
+											</div>
+											<div>
+												<label><input type="radio" name="choiceSecond">I don`t have children</label>
+											</div>
+										</div>
+									</div>
+										<div class="buttons">
+										<input type="button" value="Save">
+										<input type="button" value="Edit">
+									</div>
 								</div>
 								<div class="profileFoto">
 									<div>
-										<img src="" alt="">
+										<img src="img/wolf.jpg">
 									</div>
-									<div class="btn">Button</div>
+									<div class="btn">
+										<input type="button" value="Button" onclick="PopUpShow()">	
+									</div>
 								</div>
 							</div>
-							<div class="slides">
-								<img src="" alt="">
+						<div class="slider-2">
+							<div class="photo">Photo</div>
+							<div class="slider-window">
+								<ul>
+									<li><img src="img/slide-1.jpg" alt=""></li>
+									<li><img src="img/slide-2.jpg" alt=""></li>
+									<li><img src="img/slide-4.jpg" alt=""></li>
+									<li><img src="img/slide-5.jpg" alt=""></li>
+									<li><img src="img/slide-6.jpg" alt=""></li>
+									<li><img src="img/slide-7.jpg" alt=""></li>
+									<li><img src="img/slide-8.jpg" alt=""></li>
+									<li><img src="img/slide-9.jpg" alt=""></li>
+								</ul>
+							</div>
+							<div class="control">
+								<button class="prev"><i class="fas fa-long-arrow-alt-left"></i><span>Older</span></button>
+								<button class="next"><span>Newer</span><i class="fas fa-long-arrow-alt-right"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="verticalBlocks">
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-				</div>
+			<div class="verticalBlocks">
+					<div class="info">
+						<div class="up"><img src="img/slide-6.jpg" alt=""></div>
+						<div class="down">
+							<ul>
+								<li><a href="#"><i class="fas fa-heart"></i></a></li>
+								<li><a href="#"><i class="fas fa-bookmark"></i></a></li>
+								<li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="info">
+						<div class="up"><img src="img/slide-8.jpg" alt=""></div>
+						<div class="down">
+							<ul>
+								<li><a href="#"><i class="fas fa-heart"></i></a></li>
+								<li><a href="#"><i class="fas fa-bookmark"></i></a></li>
+								<li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="info">
+						<div class="up"><img src="img/slide-4.jpg" alt=""></div>
+						<div class="down">
+							<ul>
+								<li><a href="#"><i class="fas fa-heart"></i></a></li>
+								<li><a href="#"><i class="fas fa-bookmark"></i></a></li>
+								<li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="info">
+						<div class="up"><img src="img/slide-7.jpg" alt=""></div>
+						<div class="down">
+							<ul>
+								<li><a href="#"><i class="fas fa-heart"></i></a></li>
+								<li><a href="#"><i class="fas fa-bookmark"></i></a></li>
+								<li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+							</ul>
+						</div>
+					</div>
 			</div>
-			<div class="end">
-				<h2></h2>
-				<p></p>
-				<div class="music">
-					<div></div>
-					<div></div>
-					<div><input type="checkbox">Check me out</div>
-				</div>
-			</div>
+			
+		</div>
 		</section>
-	</main>
+			
 
+		<div class="popup" id="popup1">
+			<img src="img/wolf.jpg" onclick="PopUpHide()">
+		</div>
+	</main>
+		<footer class="end">
+			<h2>Music</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit qui, maxime nulla necessitatibus perferendis delectus quibusdam rerum voluptatibus cupiditate repellendus, beatae quaerat iusto rem. Fugit, dolorum, unde dolor laborum quidem accusantium ducimus quasi qui pariatur similique eum omnis ad ab natus, earum ipsa.</p>
+			<div class="music">
+				<div>
+					<audio  controls></audio>
+				</div>			
+				<div id="slider">
+					
+				</div>
+				<div><input type="checkbox">Check me out</div>
+			</div>
+
+		</footer>
+
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+
